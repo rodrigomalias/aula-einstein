@@ -1,0 +1,52 @@
+<html lang="pt-br">
+  <head>
+    <title> Aula </title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="styles.css">
+    <script type="text/javascript" src="funcoes.js"></script>
+  </head>
+  <body>
+    <div class="conteudo">
+      <img src="https://cockpit-asset.s3.amazonaws.com/images/logo_ae_branco.svg"/>
+      <p class="titulo_principal">
+        Imersão TECH
+      </p>
+      <div class="fale_conosco">
+        <p class="titulo">
+          Fale conosco
+        </p>
+        <form id="formulario" class="formulario">
+          <div>
+            <label for="nome">
+              Nome
+            </label>
+            <div>
+              <input type="text" class="input_form" id="nome" placeholder="Digite seu nome">
+            </div>
+          </div>
+          <div>
+            <label for="email">
+              Email
+            </label>
+            <div>
+              <input type="text" class="input_form" id="email" placeholder="Digite seu e-mail">
+            </div>
+          </div>
+          <div>
+            <label for="mensagem">
+              Mensagem
+            </label>
+            <div>
+              <textarea class="input_form" id="mensagem" rows="5" placeholder="Digite sua mensagem"></textarea>
+            </div>
+          </div>
+          <div class="botao">
+            <button class="formulario_botao formulario_botao_responsivo" id="formulario_botao" type="submit" form="formulario" onClick="EnviarFormulario()">
+              Enviar
+            </button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
